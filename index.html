@@ -6,53 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        body {
-            background-color: rgba(191, 196, 202, 0.774);
-            
-        }
-        #intro {
-            position: relative;
-            margin: 50px, 50px;
-            border: 1px solid;
-            border-radius: 15px;
-            height: 70px;
-            width: 50em;
-            left: 15em;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-            
-        }
-        #intro p {
-            text-align: center;
-            font-size: 15px;
-        }
-
-        footer {
-            text-align: center;
-            color: red;
-            position: absolute;
-            height:50px;
-            margin-top: -50px;
-            bottom: 0px;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
     <header>
-        <h1 style="text-align:center;"> This is h1 header, and below is some crap. </h1>
+        <div>
+            <h1> The momment you stop accepting challenges is the moment your life ends. </h1>
+        </div>
+
 
         <main>
             <section id="intro">
                 <p>
                     Hello, I am ....
-                </br>
+                    </br>
                     I enjoy coading, cooking, watching TV series, and playing TT and Carrom.
                 </p>
             </section>
+
             <section>
-                This is 2<sup>nd</sup> section
+                <label>
+                    This is 2<sup>nd</sup> section
+                </label>
+                <div id="top10block">
+                    <div id="t_feeds">
+                        <span>Twitter feeds </span>
+                        <div >
+                            <a class="twitter-timeline" data-width="500" data-height="500" data-theme="light"
+                                href="https://twitter.com/_100DaysOfCode?ref_src=twsrc%5Etfw">Tweets by
+                                _100DaysOfCode</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                        </div>
+                    </div>
+                    <div id="t_songs">
+                        <span> Top 10 songs. </span>
+                        <div> This block will contain songs feeds.</div>
+                    </div>
+                </div>
             </section>
             <section>
                 This is 3<sup>rd</sup> section.
@@ -61,8 +53,8 @@
 
     </header>
 
-    <footer >
-        <h3 > This is footer block.</h3>
+    <footer>
+        <h3> This is footer block.</h3>
     </footer>
 </body>
 
